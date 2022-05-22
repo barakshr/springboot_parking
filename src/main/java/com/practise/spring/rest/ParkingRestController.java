@@ -29,7 +29,7 @@ public class ParkingRestController {
 
     @GetMapping("/parking_slots_table")
     public ResponseEntity<List<ParkingSlot>> getParkingSlotsTable(@RequestParam(value = "myName", defaultValue = "") String name) {
-        LOGGER.info("reading slots table");
+        LOGGER.debug("reading slots table");
         List<ParkingSlot> parkingSlots = parkingApiService.getSlotsTable();
         return ResponseEntity.accepted().body(parkingSlots);
     }
