@@ -12,7 +12,8 @@ public class SpringBootMain {
 
     public static void main(String[] args) {
         try {
-            //ddd
+            //
+
             SpringApplication.run(SpringBootMain.class, args);
 
         } catch (Exception e) {
