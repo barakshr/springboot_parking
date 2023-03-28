@@ -1,6 +1,6 @@
 package com.practise.spring.repo;
 
-import com.practise.spring.model.ParkingSlot;
+import com.practise.spring.entities.ParkingSlot;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

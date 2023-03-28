@@ -1,4 +1,4 @@
-package com.practise.spring.model;
+package com.practise.spring.entities;
 
 import javax.persistence.*;
 import java.util.Objects;
@@ -8,7 +8,7 @@ import java.util.Objects;
 public class ParkingSlot {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private int id;
     private int parking_lot_id;
     private boolean occupied;

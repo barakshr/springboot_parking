@@ -1,4 +1,4 @@
-package com.practise.spring.model;
+package com.practise.spring.entities;
 
 
 import javax.persistence.*;
